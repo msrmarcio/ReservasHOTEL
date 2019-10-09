@@ -52,7 +52,7 @@ namespace Btg.PocReserva.UI
             param.Add("pwd", "Val090482");
             client.Login(urlFlexReserva, param);
 
-            GetDisponibilidade(4014, new DateTime(2019, 12, 22), new DateTime(2020, 01, 31));
+            //GetDisponibilidade(4014, new DateTime(2019, 12, 22), new DateTime(2020, 01, 31));
 
             // get toddos
             GetDisponibilidade();
@@ -325,7 +325,7 @@ namespace Btg.PocReserva.UI
             }
             catch (Exception ex)
             {
-                Displaynotify();
+                MessageBox.Show(ex.Message, "RESERVAS", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -338,122 +338,94 @@ namespace Btg.PocReserva.UI
             {
                 if (gpbPraia.Enabled)
                 {
-                    if (rbtAreado.Enabled)
+                    if (btnCaragua.Checked)
                     {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
+                        reserva.Add(btnCaragua.TabIndex, btnCaragua.Text);
+                    }
+                    else if (btnItanhaem.Checked)
+                    {
+                        reserva.Add(btnItanhaem.TabIndex, btnItanhaem.Text);
+                    }
+                    else if (btnUbatuba.Checked)
+                    {
+                        reserva.Add(btnUbatuba.TabIndex, btnUbatuba.Text);
+                    }
+                    else if (btnGuaruja.Checked)
+                    {
+                        reserva.Add(btnGuaruja.TabIndex, btnGuaruja.Text);
+                    }
+                    else if (btnMaresias.Checked)
+                    {
+                        reserva.Add(btnMaresias.TabIndex, btnMaresias.Text);
                     }
                 }
                 else if (gpbThermas.Enabled)
                 {
-                    if (rbtAreado.Enabled)
+                    if (rbtIbira.Checked)
                     {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
+                        reserva.Add(rbtIbira.TabIndex, rbtIbira.Text);
+                    }
+                    else if (rbtSaoPedro.Checked)
+                    {
+                        reserva.Add(rbtSaoPedro.TabIndex, rbtSaoPedro.Text);
                     }
                 }
                 else if (gpbCircuito.Enabled)
                 {
-                    if (rbtAreado.Enabled)
+                    if (btnAmapro.Checked)
+                    {
+                        reserva.Add(btnAmapro.TabIndex, btnAmapro.Text);
+                    }
+                    else if (btnSerra.Checked)
+                    {
+                        reserva.Add(btnSerra.TabIndex, btnSerra.Text);
+                    }
+                    else if (btnLindoia.Checked)
+                    {
+                        reserva.Add(btnLindoia.TabIndex, btnLindoia.Text);
+                    }
+                    else if (btnSocorro.Checked)
+                    {
+                        reserva.Add(btnSocorro.TabIndex, btnSocorro.Text);
+                    }
+                }
+                else if (gpbCampo.Enabled)
+                {
+                    if (rbtAreado.Checked)
                     {
                         reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
+                    }
+                    else if (rbtAvare.Checked)
+                    {
+                        reserva.Add(rbtAvare.TabIndex, rbtAvare.Text);
                     }
                 }
                 else if (gpbMontanha.Enabled)
                 {
-                    if (rbtAreado.Enabled)
+                    if (btnAppenzell.Checked)
                     {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
+                        reserva.Add(btnAppenzell.TabIndex, btnAppenzell.Text);
+                    }
+                    else if (btnMonte.Checked)
+                    {
+                        reserva.Add(btnMonte.TabIndex, btnMonte.Text);
+                    }
+                    else if (btnSaha.Checked)
+                    {
+                        reserva.Add(btnSaha.TabIndex, btnSaha.Text);
+                    }
+                    else if (btnCampos.Checked)
+                    {
+                        reserva.Add(btnCampos.TabIndex, btnCampos.Text);
+                    }
+                    else if (btnPocos.Checked)
+                    {
+                        reserva.Add(btnPocos.TabIndex, btnPocos.Text);
                     }
                 }
-                else if (gpbCircuito.Enabled)
+                else 
                 {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
-                }
-                else if (gpbCircuito.Enabled)
-                {
-                    if (rbtAreado.Enabled)
-                    {
-                        reserva.Add(rbtAreado.TabIndex, rbtAreado.Text);
-                    }
+                    throw new Exception("Nenhum Hotel Selecionado");
                 }
             }
             catch (Exception ex)
@@ -471,12 +443,16 @@ namespace Btg.PocReserva.UI
 
             try
             {
-                if (chkCampo.Enabled || chkCircuito.Enabled || chkMontanha.Enabled || chkPraia.Enabled || chkThermas.Enabled)
+                if (chkCampo.Checked || chkCircuito.Checked || chkMontanha.Checked || chkPraia.Checked || chkThermas.Checked)
                 {
                     if (VerificarHotelSelecionado())
                     {
                         selecionado = true;
                     }
+                }
+                else
+                {
+                    throw new Exception("Nenhuma Local de estadia selecioando");
                 }
             }
             catch (Exception ex)

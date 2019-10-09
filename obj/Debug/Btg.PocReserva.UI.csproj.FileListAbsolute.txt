@@ -11,3 +11,15 @@ C:\Users\rodrigme\Projetos\POC_ONLY\Btg.PocReserva.UI\obj\Debug\Btg.PocReserva.U
 C:\Users\rodrigme\Projetos\POC_ONLY\Btg.PocReserva.UI\obj\Debug\Btg.PocReserva.UI.exe
 C:\Users\rodrigme\Projetos\POC_ONLY\Btg.PocReserva.UI\obj\Debug\Btg.PocReserva.UI.pdb
 C:\Users\rodrigme\Projetos\POC_ONLY\Btg.PocReserva.UI\obj\Debug\Btg.PocReserva.UI.csprojAssemblyReference.cache
+C:\Users\Familia\Documents\work\ReservasHOTEL\bin\Debug\Btg.PocReserva.UI.exe.config
+C:\Users\Familia\Documents\work\ReservasHOTEL\bin\Debug\Btg.PocReserva.UI.exe
+C:\Users\Familia\Documents\work\ReservasHOTEL\bin\Debug\Btg.PocReserva.UI.pdb
+C:\Users\Familia\Documents\work\ReservasHOTEL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Familia\Documents\work\ReservasHOTEL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Familia\Documents\work\ReservasHOTEL\obj\Debug\Btg.PocReserva.UI.csprojResolveAssemblyReference.cache
+C:\Users\Familia\Documents\work\ReservasHOTEL\obj\Debug\Btg.PocReserva.UI.Form1.resources
+C:\Users\Familia\Documents\work\ReservasHOTEL\obj\Debug\Btg.PocReserva.UI.Properties.Resources.resources
+C:\Users\Familia\Documents\work\ReservasHOTEL\obj\Debug\Btg.PocReserva.UI.csproj.GenerateResource.Cache
+C:\Users\Familia\Documents\work\ReservasHOTEL\obj\Debug\Btg.PocReserva.UI.csproj.CoreCompileInputs.cache
+C:\Users\Familia\Documents\work\ReservasHOTEL\obj\Debug\Btg.PocReserva.UI.exe
+C:\Users\Familia\Documents\work\ReservasHOTEL\obj\Debug\Btg.PocReserva.UI.pdb

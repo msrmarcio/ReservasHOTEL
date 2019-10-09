@@ -63,6 +63,10 @@
             this.chkCampo = new System.Windows.Forms.CheckBox();
             this.btnReservar = new System.Windows.Forms.Button();
             this.pnlFuncoes = new System.Windows.Forms.Panel();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.lblSenha = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.gpbCampo.SuspendLayout();
             this.gpbPraia.SuspendLayout();
             this.gpbThermas.SuspendLayout();
@@ -272,7 +276,6 @@
             this.btnPocos.Name = "btnPocos";
             this.btnPocos.Size = new System.Drawing.Size(105, 17);
             this.btnPocos.TabIndex = 8;
-            this.btnPocos.TabStop = true;
             this.btnPocos.Text = "Poços de Caldas";
             this.btnPocos.UseVisualStyleBackColor = true;
             // 
@@ -283,7 +286,6 @@
             this.btnCampos.Name = "btnCampos";
             this.btnCampos.Size = new System.Drawing.Size(98, 17);
             this.btnCampos.TabIndex = 7;
-            this.btnCampos.TabStop = true;
             this.btnCampos.Text = "Campos Jordao";
             this.btnCampos.UseVisualStyleBackColor = true;
             // 
@@ -294,7 +296,6 @@
             this.btnSaha.Name = "btnSaha";
             this.btnSaha.Size = new System.Drawing.Size(50, 17);
             this.btnSaha.TabIndex = 6;
-            this.btnSaha.TabStop = true;
             this.btnSaha.Text = "Saha";
             this.btnSaha.UseVisualStyleBackColor = true;
             // 
@@ -305,7 +306,6 @@
             this.btnMonte.Name = "btnMonte";
             this.btnMonte.Size = new System.Drawing.Size(86, 17);
             this.btnMonte.TabIndex = 3;
-            this.btnMonte.TabStop = true;
             this.btnMonte.Text = "Monte Verde";
             this.btnMonte.UseVisualStyleBackColor = true;
             // 
@@ -316,7 +316,6 @@
             this.btnAppenzell.Name = "btnAppenzell";
             this.btnAppenzell.Size = new System.Drawing.Size(71, 17);
             this.btnAppenzell.TabIndex = 2;
-            this.btnAppenzell.TabStop = true;
             this.btnAppenzell.Text = "Appenzell";
             this.btnAppenzell.UseVisualStyleBackColor = true;
             // 
@@ -469,16 +468,57 @@
             this.pnlFuncoes.Controls.Add(this.BtgLogin);
             this.pnlFuncoes.Controls.Add(this.btnReservar);
             this.pnlFuncoes.Controls.Add(this.btnlimpar);
-            this.pnlFuncoes.Location = new System.Drawing.Point(483, 12);
+            this.pnlFuncoes.Location = new System.Drawing.Point(484, 148);
             this.pnlFuncoes.Name = "pnlFuncoes";
             this.pnlFuncoes.Size = new System.Drawing.Size(200, 170);
             this.pnlFuncoes.TabIndex = 9;
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Location = new System.Drawing.Point(486, 12);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(56, 13);
+            this.lblUsuario.TabIndex = 10;
+            this.lblUsuario.Text = "USUARIO";
+            // 
+            // txtSenha
+            // 
+            this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSenha.Location = new System.Drawing.Point(484, 77);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(189, 26);
+            this.txtSenha.TabIndex = 13;
+            this.txtSenha.Text = "Val090482";
+            // 
+            // lblSenha
+            // 
+            this.lblSenha.AutoSize = true;
+            this.lblSenha.Location = new System.Drawing.Point(486, 57);
+            this.lblSenha.Name = "lblSenha";
+            this.lblSenha.Size = new System.Drawing.Size(44, 13);
+            this.lblSenha.TabIndex = 12;
+            this.lblSenha.Text = "SENHA";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.Location = new System.Drawing.Point(484, 28);
+            this.maskedTextBox1.Mask = "999.999.999-99";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(189, 26);
+            this.maskedTextBox1.TabIndex = 14;
+            this.maskedTextBox1.Text = "30213588889";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(685, 324);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.txtSenha);
+            this.Controls.Add(this.lblSenha);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.pnlFuncoes);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.gpbThermas);
@@ -505,6 +545,7 @@
             this.groupBox4.PerformLayout();
             this.pnlFuncoes.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -544,6 +585,10 @@
         private System.Windows.Forms.CheckBox chkCampo;
         private System.Windows.Forms.Button btnReservar;
         private System.Windows.Forms.Panel pnlFuncoes;
+        private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.TextBox txtSenha;
+        private System.Windows.Forms.Label lblSenha;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
 
